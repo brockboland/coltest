@@ -1,0 +1,9 @@
+.center-content {
+  width: 50%;
+  float: left;
+}
+
+.right-content {
+  width: 50%;
+  float: right;
+}

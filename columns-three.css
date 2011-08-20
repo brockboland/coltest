@@ -1,0 +1,14 @@
+.left-content {
+  width: 25%;
+  float: left;
+}
+
+.center-content {
+  width: 50%;
+  float: left;
+}
+
+.right-content {
+  width: 25%;
+  float: right;
+}

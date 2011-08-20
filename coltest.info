@@ -1,0 +1,34 @@
+name = Columns Test
+description = For testing Context Layouts
+
+core = 6.x
+engine = phptemplate
+
+stylesheets[screen][] = "style.css"
+
+
+; One Col
+layouts[one][name] = "One Column"
+layouts[one][description] = "Just a single column of content."
+layouts[one][stylesheet] = "columns-one.css"
+layouts[one][template] = "layout-one-col"
+layouts[one][regions][] = "content"
+
+
+; Two Col
+layouts[two][name] = "Two Column"
+layouts[two][description] = "Two evenly-sized columns of content."
+layouts[two][stylesheet] = "columns-two.css"
+layouts[two][template] = "layout-two-col"
+layouts[two][regions][] = "content"
+layouts[two][regions][] = "right"
+
+
+; Three Col
+layouts[three][name] = "Three Column"
+layouts[three][description] = "Three columns of content: center and two sidebars."
+layouts[three][stylesheet] = "columns-three.css"
+layouts[three][template] = "layout-three-col"
+layouts[three][regions][] = "content"
+layouts[three][regions][] = "left"
+layouts[three][regions][] = "right"
