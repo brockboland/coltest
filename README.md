@@ -1,0 +1,1 @@
+This is a super-basic theme for Drupal 6. I wrote it to try out the [Context Layouts](http://drupal.org/project/context) module, and [made a screencast](http://www.drupaldork.com/module_review/context/6.x-3.0) to demonstrate how the module works.
